@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -169,4 +170,41 @@ h2.title {
     font-weight: 300;
     line-height: 21px;
     text-align: center;
+}
+
+.optimisation {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimisation .optimisation_header {
+    color: #299cbd;
+    margin-left: 391px;
+    font-family: 'Roboto - Black';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.optimisation .optimisation_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: 'Roboto Light';
+    font-weight: 300;
+}
+
+.optimisation .optimisation_text span {
+    font-family: 'Roboto - Bold';
+    font-weight: 700;
+}
+
+.optimisation .optimisation_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
 }
