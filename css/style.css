@@ -178,7 +178,7 @@ h2.title {
 
 .optimisation {
     min-height: 550px;
-    padding: 102px 0 107px 0;
+    padding-top: 82px;
 }
 
 .optimisation .optimisation_header {
@@ -209,13 +209,13 @@ h2.title {
 .optimisation .optimisation_img {
     position: absolute;
     top: -54px;
-    left: -240px;
+    left: -237px;
     z-index: -1;
 }
 
 .finish {
     min-height: 447px;
-    padding: 86px 0 79px 0;
+    padding: 76px 0 79px 0;
     background: url("../img/bg/second_bg.jpg") center center/cover no-repeat;
 }
 
@@ -338,4 +338,25 @@ h2.title {
     line-height: 20px;
     letter-spacing: normal;
     text-align: center;
+}
+
+.footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+}
+
+.footer .footer_contacts {
+    margin: 0 auto;
+    padding: 61px 0 69px 0;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.footer .footer_contacts a:link {
+    color: #888888;
 }
