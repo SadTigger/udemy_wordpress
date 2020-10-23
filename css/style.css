@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -25,7 +29,7 @@
     color: #ffffff;
     font-family: Roboto;
     font-size: 15px;
-    font-weight: 400; /* 500 pixel */
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     margin-top: 14px;
@@ -37,26 +41,24 @@ h1 {
 
 .title {
     color: #f9bf3b;
-    font-family: 'Roboto - Black';
     font-size: 41px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
 }
 
 h2.title {
-    margin-top: 24px;
+    margin-top: 6px;
 }
 
 .simple .title_big {
+    margin-top: 30px;
     color: #ffffff;
-    font-family: 'Roboto - Black';
     font-size: 80px;
-    font-weight: 400; /* 700 pixel*/
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 21px;
 }
 
 .promo .promo_text {
@@ -64,16 +66,13 @@ h2.title {
     margin-top: 23px;
     color: #ffffff;
     font-size: 21px;
-    font-weight: 300;
     line-height: 28px;
-    font-family: 'Roboto Light';
     font-weight: 300;
     text-align: center;
 }
 
 .promo .promo_text span {
     color: #f9bf3b;
-    font-family: 'Roboto - Bold';
     font-weight: 700;
 }
 
@@ -88,7 +87,6 @@ h2.title {
     background-image: linear-gradient(to top, #2798b9, #3ab6da);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #ffffff;
-    font-family: 'Roboto Condensed';
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
@@ -268,11 +266,11 @@ h2.title {
 }
 
 .gift .gift_desct {
-    margin-top: 42px;
+    margin-top: 29px;
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 43px;
     text-align: center;
 }
@@ -292,8 +290,9 @@ h2.title {
     font-family: Roboto;
     font-size: 21px;
     font-weight: normal;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: normal;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -308,11 +307,11 @@ h2.title {
 }
 
 .first_webinar .first_webinar_title {
-    margin-top: 37px;
+    margin-top: 32px;
     color: #252525;
     font-family: Roboto;
     font-size: 29px;
-    font-weight: normal;
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
 }
@@ -322,13 +321,13 @@ h2.title {
     color: #299cbd;
     font-family: "Roboto - Black";
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
 }
 
 .first_webinar .first_webinar_subtitle {
-    margin-top: 7px;
+    margin-top: 16px;
     color: #4a4a4a;
     font-family: Roboto;
     font-size: 23px;
