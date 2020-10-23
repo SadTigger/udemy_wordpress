@@ -119,7 +119,7 @@ h2.title {
 .waiting {
     min-height: 604px;
     background-color: #efefef;
-    padding: 85px 0 75px 0;
+    padding: 85px 0 25px 0;
 }
 
 .waiting .waiting_header, .finish .finish_header {
@@ -127,6 +127,7 @@ h2.title {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -178,7 +179,7 @@ h2.title {
 
 .optimisation {
     min-height: 550px;
-    padding-top: 82px;
+    padding: 102px 0 0 0;
 }
 
 .optimisation .optimisation_header {
@@ -187,7 +188,7 @@ h2.title {
     font-family: 'Roboto - Black';
     font-size: 29px;
     font-weight: 400;
-    line-height: 12px;
+    text-transform: uppercase;
 }
 
 .optimisation .optimisation_text {
@@ -195,7 +196,6 @@ h2.title {
     margin-left: 391px;
     color: #4a4a4a;
     font-size: 17px;
-    font-weight: 300;
     line-height: 27px;
     font-family: 'Roboto Light';
     font-weight: 300;
@@ -215,7 +215,7 @@ h2.title {
 
 .finish {
     min-height: 447px;
-    padding: 76px 0 79px 0;
+    padding: 67px 0 79px 0;
     background: url("../img/bg/second_bg.jpg") center center/cover no-repeat;
 }
 
@@ -299,7 +299,7 @@ h2.title {
 
 .first_webinar {
     min-height: 515px;
-    padding: 89px 0 64px 0;
+    padding-top: 89px;
 }
 
 .first_webinar .first_webinar_img {
@@ -311,43 +311,40 @@ h2.title {
     margin-top: 37px;
     color: #252525;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: normal;
-    line-height: 12px; */
-    letter-spacing: normal;
+    text-transform: uppercase;
     text-align: center;
 }
 
 .first_webinar .first_webinar_date {
-    margin-top: 30px;
+    margin-top: 12px;
     color: #299cbd;
-    font-family: Roboto;
+    font-family: "Roboto - Black";
     font-size: 36px;
-    font-weight: 900;
-    line-height: 12px;
-    letter-spacing: normal;
+    font-weight: 400;
+    text-transform: uppercase;
     text-align: center;
 }
 
 .first_webinar .first_webinar_subtitle {
-    margin-top: 25px;
+    margin-top: 7px;
     color: #4a4a4a;
     font-family: Roboto;
     font-size: 23px;
-    font-weight: normal;
-    line-height: 20px;
-    letter-spacing: normal;
+    font-weight: 400;
     text-align: center;
 }
 
 .footer {
     min-height: 166px;
     background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
 }
 
 .footer .footer_contacts {
     margin: 0 auto;
-    padding: 61px 0 69px 0;
+    /* padding: 61px 0 69px 0; */
     color: #888888;
     font-family: Roboto;
     font-size: 15px;
